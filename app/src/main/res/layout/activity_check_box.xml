@@ -72,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#27134A"
         android:text="Buy" />
 
 

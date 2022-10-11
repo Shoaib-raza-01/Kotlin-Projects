@@ -52,7 +52,8 @@
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Industrial Ethics and Legal Issues" />
+            android:text="Industrial Ethics and Legal Issues"
+            />
 
         <RadioButton
             android:id="@+id/radioButton7"

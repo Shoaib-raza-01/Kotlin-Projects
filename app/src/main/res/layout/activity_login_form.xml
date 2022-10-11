@@ -67,7 +67,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="@string/enter_your_number"
+        android:hint="Enter your number"
         android:inputType="phone"
         android:minHeight="48dp"
         tools:layout_editor_absoluteX="84dp"

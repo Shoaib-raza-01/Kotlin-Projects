@@ -15,7 +15,7 @@ class loginForm : AppCompatActivity() {
         var lName = findViewById<EditText>(R.id.editTextTextPersonName2)
         var pass = findViewById<EditText>(R.id.editTextTextPassword)
         var mail = findViewById<EditText>(R.id.editTextTextEmailAddress)
-        var pNum = findViewById<EditText>(R.id.editTextNumber)
+        var pNum = findViewById<EditText>(R.id.editTextPhone)
         var age = findViewById<EditText>(R.id.editTextNumber2)
 
         var btn = findViewById<Button>(R.id.button2)

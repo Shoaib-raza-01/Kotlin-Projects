@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">calculator</string>
     <string name="enter_your_number">Enter your Number</string>
+    <string name="enter_url">enter url</string>
 </resources>

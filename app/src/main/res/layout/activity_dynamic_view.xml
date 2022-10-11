@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    android:background="@drawable/gbg"
+    android:layout_height="match_parent"
+    tools:context=".dynamicView">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:text="Dynamic List" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:backgroundTint="#666C8C"
+        android:text="ADD" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear"
+            android:orientation="vertical"/>
+    </ScrollView>
+</LinearLayout>

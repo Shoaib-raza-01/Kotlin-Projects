@@ -14,27 +14,65 @@
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
         <activity
-            android:name=".adaptorConcept"
-            android:exported="true" >
+            android:name=".implicitExtent"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SwiggyCart"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".dynamicView"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".swiggyOrder"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
-            android:name=".checkBox"
+            android:name=".imageButton"
             android:exported="true">
-
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity
+            android:name=".spinner"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".adaptorConcept"
+            android:exported="true" />
+        <activity
+            android:name=".checkBox"
+            android:exported="true" />
         <activity
             android:name=".regnForm"
             android:exported="false" />
         <activity
             android:name=".calculator"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".gridLayout"
             android:exported="true" />
