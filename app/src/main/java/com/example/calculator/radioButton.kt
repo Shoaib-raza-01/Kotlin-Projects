@@ -26,7 +26,7 @@ class radioButton : AppCompatActivity() {
             Toast.makeText(applicationContext,"hello",Toast.LENGTH_SHORT).show()
             Rgrp.setOnCheckedChangeListener(null);
             Rgrp.clearCheck();
-            txtView.text = " "
+            txtView.text = ""
             Rgrp.setOnCheckedChangeListener(
                 RadioGroup.OnCheckedChangeListener { group, checkedId ->
                     val radio: RadioButton = findViewById(checkedId)
