@@ -42,7 +42,7 @@ class swiggyOrder : AppCompatActivity() {
             sum += 1.99
             Snackbar.make(it,"Combo is added to cart",Snackbar.LENGTH_LONG)
                 .setAction("ORDER") {
-                    intent  = Intent(this,SwiggyCart::class.java);
+                    intent  = Intent(applicationContext,SwiggyCart::class.java);
                     intent.putExtra("total",sum.toString())
 //                    startActivity(Intent(this,SwiggyCart::class.java))
                     startActivity(intent)

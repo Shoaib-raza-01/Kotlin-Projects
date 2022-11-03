@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#323A68"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20sp"
+        android:text="Bus Booking!"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/RGrp"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="One-Way" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20sp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="Round Trip" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20sp"
+        android:background="@drawable/border"
+        android:layout_marginRight="20sp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:hint="Start" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="TO"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/border"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="textPersonName"
+        android:hint="Destination" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plan your journey"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:hint="Depart" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20sp"
+            android:background="@drawable/border"
+            android:inputType="textPersonName"
+            android:hint="Return" />
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:textColor="@color/white"
+        android:text="Confirm to proceed" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="#DD714E"
+        android:text="Search" />
+
+
+
+
+</LinearLayout>

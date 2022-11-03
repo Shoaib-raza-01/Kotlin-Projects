@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RailwayTktBooking">
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/irlogo"
+        android:layout_height="300dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Indian Railways" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName10"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:hint="Station Name" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:text="TO" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Station Name" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Journey Date" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="100dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="19dp"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+
+</LinearLayout>

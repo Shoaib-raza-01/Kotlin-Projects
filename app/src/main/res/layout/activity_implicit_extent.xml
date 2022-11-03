@@ -24,7 +24,7 @@
 
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="Button" />
+        android:text="Open Camera" />
 
     <Button
         android:id="@+id/button26"
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="Button" />
+        android:text="Open Call History" />
 
     <Button
         android:id="@+id/button27"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="Button" />
+        android:text="Open Contacts" />
 
     <Button
         android:id="@+id/button28"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="Button" />
+        android:text="Open Google Photos" />
 
     <Button
         android:id="@+id/button29"
@@ -56,5 +56,5 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="Button" />
+        android:text="Open Dialer" />
 </LinearLayout>
