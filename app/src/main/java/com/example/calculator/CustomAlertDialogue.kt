@@ -15,7 +15,7 @@ class CustomAlertDialogue : AppCompatActivity() {
         setContentView(R.layout.activity_custom_alert_dialogue)
 
         val btnSimpleAlert = findViewById<Button>(R.id.btnSimpleAlert)
-        val btnAlertWithItems = findViewById<Button>(R.id.btnAlertWithItems)
+        val btnAlertWithItems = findViewById<Button>(R.id.btnAlertWithItem)
         val btnAlertWithMultiChoiceItems = findViewById<Button>(R.id.btnAlertWithMultiChoiceItems)
         val btnAlertWithEditText = findViewById<Button>(R.id.btnAlertWithEditText)
 
